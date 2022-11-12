@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "SET NODE_ENV=development&& next dev",
-    "build": "SET NODE_ENV=production&& next build",
-    "export": "SET NODE_ENV=production && next export",
-    "start": "SET NODE_ENV=production&& next start",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
